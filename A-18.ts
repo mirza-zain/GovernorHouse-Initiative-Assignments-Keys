@@ -1,25 +1,43 @@
 //Creating a list of places I would like to visit
 let placesToVist: string[] = ["Saudi Arabia", "Turkey", "Algeria", "Germany", "Canada"];
-for(let i = 0; i < placesToVist.length; i++){
-    console.log(`Places I want to visit, ${placesToVist[i]}`);
-}
+console.log("Orignal Array")
+console.log(placesToVist);
 
-placesToVist.slice().sort();
-console.log("List in alphabatical order");
-for(let i = 0; i < placesToVist.length; i++){
-    console.log(`${placesToVist[i]}`);
-}
+//Alphabatical Order without using orignal array
+let copy = placesToVist.slice();
+copy.sort();
+console.log("Copy of Array sorted ");
+console.log(copy)
 
-//now printing the list in alphabatical order
-placesToVist.sort();
-console.log("List in alphabatical order");
-for(let i = 0; i < placesToVist.length; i++){
-    console.log(`${placesToVist[i]}`);
-}
+//Showing orignal array
+console.log("Orginal Array ");
+console.log(placesToVist);
+
+//now printing the copy in reverse
+copy.reverse();
+console.log("Copy of Array in reverse");
+console.log(copy)
+
+//Showing orignal array
+console.log("Orginal Array");
+console.log(placesToVist);
 
 //now printing the list in reverse alphabatical order
 placesToVist.reverse();
-console.log("List in reverse alphabatical order");
-for(let i = 0; i < placesToVist.length; i++){
-    console.log(`${placesToVist[i]}`);
-}
+console.log("Orignal Array in reverse");
+console.log(placesToVist);
+
+//reversing again to make it back to orignal 
+placesToVist.reverse();
+console.log("Back to orignal");
+console.log(placesToVist);
+
+//Sorting the array to make it alphabetical order
+placesToVist.sort();
+console.log("Orginal Array sorted");
+console.log(placesToVist);
+
+//Sorting the array to make it reverse alphabetical order
+placesToVist.sort().reverse();
+console.log("Orignal Arrat sorted plus reverse");
+console.log(placesToVist);
