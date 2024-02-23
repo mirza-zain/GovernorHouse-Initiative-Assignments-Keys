@@ -12,3 +12,5 @@ if(alien_color == "green"){
 } else {
     console.log("You have earned 10 points.");
 }
+
+export{}

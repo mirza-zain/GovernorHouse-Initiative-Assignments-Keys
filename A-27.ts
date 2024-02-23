@@ -34,3 +34,5 @@ if(alien_color == "green") {
 } else {
     console.log("Wrong Color")
 }
+
+export{}

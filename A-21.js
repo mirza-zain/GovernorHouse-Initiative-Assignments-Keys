@@ -1,4 +1,6 @@
-var friend = [{
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const friend = [{
         name: "Faran",
         age: 19,
         hobby: ["Gaming", "Coding"]
@@ -7,7 +9,6 @@ var friend = [{
         age: 19,
         hobby: ["Drawing", "Eating", "Photography"]
     }];
-for (var _i = 0, friend_1 = friend; _i < friend_1.length; _i++) {
-    var lists = friend_1[_i];
-    console.log("Name: ".concat(lists.name, "\nAge: ").concat(lists.age, "\nHobbies: ").concat(lists.hobby.join(", ")));
+for (let lists of friend) {
+    console.log(`Name: ${lists.name}\nAge: ${lists.age}\nHobbies: ${lists.hobby.join(", ")}`);
 }

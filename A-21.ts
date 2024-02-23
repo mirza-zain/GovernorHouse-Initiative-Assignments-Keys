@@ -18,3 +18,5 @@ const friend: Friends[] = [{
 for(let lists of friend){
     console.log(`Name: ${lists.name}\nAge: ${lists.age}\nHobbies: ${lists.hobby.join(", ")}`)
 }
+
+export{}

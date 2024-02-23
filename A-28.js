@@ -1,5 +1,7 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 //Determining the stages of life of a person using if conditional
-var age = 19;
+let age = 19;
 if (age < 2) {
     console.log("The person is Baby");
 }

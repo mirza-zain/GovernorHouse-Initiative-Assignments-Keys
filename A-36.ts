@@ -1,4 +1,4 @@
-//create a function for making t-shirt which accept one valueamd give answrt
+//create a function for making t-shirt which accept one valueamd and give answer
 function make_shirt(size: number, text: string){
     console.log(`${text}, and it's size is ${size}`);
 }

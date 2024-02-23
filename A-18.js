@@ -1,9 +1,10 @@
+"use strict";
 //Creating a list of places I would like to visit
-var placesToVist = ["Saudi Arabia", "Turkey", "Algeria", "Germany", "Canada"];
+let placesToVist = ["Saudi Arabia", "Turkey", "Algeria", "Germany", "Canada"];
 console.log("Orignal Array");
 console.log(placesToVist);
 //Alphabatical Order without using orignal array
-var copy = placesToVist.slice();
+let copy = placesToVist.slice();
 copy.sort();
 console.log("Copy of Array sorted ");
 console.log(copy);
